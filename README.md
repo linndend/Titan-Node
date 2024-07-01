@@ -20,7 +20,8 @@ sudo cp titan-edge /usr/local/bin && sudo cp libgoworkerd.so /usr/local/lib
 ```
 
 ### 4. Bind Identify code
-YOUR-CODE input IDENTIFY CODE TITAN IN WEB ### https://test1.titannet.io/login
+YOUR-CODE input IDENTIFY CODE TITAN IN WEB
+## {https://test1.titannet.io/login}
 ```bash
 titan-edge bind --hash=YOUR-CODE-IDENTITY https://api-test1.container1.titannet.io/api/v2/device/binding
 ```
@@ -35,7 +36,7 @@ OR
 titan-edge daemon start
 ```
 
-### <red>STOP NODE</red>
+### <font color="red">STOP NODE</font>
 ```bash
 titan-edge daemon stop
 ```
