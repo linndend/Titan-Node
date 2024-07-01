@@ -10,11 +10,9 @@ sudo cp titan-edge /usr/local/bin
 sudo cp libgoworkerd.so /usr/local/lib
 
 # Bind Identify code
-titan-edge bind --hash=your-hash-here https://api-test1.container1.titannet.io/api/v2/device/binding
+titan-edge bind --hash=YOUR-CODE-IDENTITY https://api-test1.container1.titannet.io/api/v2/device/binding
 
-YOUR HASH HERE input IDENTIFY CODE TITAN IN WEB
-
-#https://titannet.gitbook.io/titan-network-en/resource-network-test/bind-the-identity-code
+YOUR HASH HERE input IDENTIFY CODE TITAN IN WEB (https://titannet.gitbook.io/titan-network-en/resource-network-test/bind-the-identity-code)
 # Run
 export LD_LIBRARY_PATH=$LD_LIZBRARY_PATH:./libgoworkerd.so
 titan-edge daemon start --init --url https://cassini-locator.titannet.io:5000/rpc/v0
