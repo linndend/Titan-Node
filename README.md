@@ -1,24 +1,45 @@
-# Download CLI App for Linux
-<code>wget https://github.com/Titannet-dao/titan-node/releases/download/v0.1.19/titan-l2edge_v0.1.19_patch_linux_amd64.tar.gz</code>
+# TITAN NODE FOR LINUX RUNNING
 
-# Extract and Enter Directory
-<code>tar -zxvf titan-l2edge_v0.1.19_patch_linux_amd64.tar.gz && cd titan-l2edge_v0.1.19_patch_linux_amd64</code>
+### 1. Download CLI App for Linux
+'''bash
+wget https://github.com/Titannet-dao/titan-node/releases/download/v0.1.19/titan-l2edge_v0.1.19_patch_linux_amd64.tar.gz
+'''
 
-# Install CLI Titan and Library
-<code>sudo cp titan-edge /usr/local/bin && sudo cp libgoworkerd.so /usr/local/lib</code>
+### 2. Extract and Enter Directory
+'''bash
+tar -zxvf titan-l2edge_v0.1.19_patch_linux_amd64.tar.gz
+'''
 
-# Bind Identify code
-<code>titan-edge bind --hash=YOUR-CODE-IDENTITY https://api-test1.container1.titannet.io/api/v2/device/binding</code>
+'''
+cd titan-l2edge_v0.1.19_patch_linux_amd64
+'''
 
-YOUR HASH HERE input IDENTIFY CODE TITAN IN WEB (https://test1.titannet.io/login)
-# Run
-<code>export LD_LIBRARY_PATH=$LD_LIZBRARY_PATH:./libgoworkerd.so
-titan-edge daemon start --init --url https://cassini-locator.titannet.io:5000/rpc/v0</code>
+### 3. Install CLI Titan and Library
+'''bash
+sudo cp titan-edge /usr/local/bin && sudo cp libgoworkerd.so /usr/local/lib
+'''
 
+### 4. Bind Identify code
+YOUR HASH HERE input IDENTIFY CODE TITAN IN WEB ### https://test1.titannet.io/login
+'''bash
+titan-edge bind --hash=YOUR-CODE-IDENTITY https://api-test1.container1.titannet.io/api/v2/device/binding
+'''
+
+### 5. Run
+'''bash
+export LD_LIBRARY_PATH=$LD_LIZBRARY_PATH:./libgoworkerd.so
+titan-edge daemon start --init --url https://cassini-locator.titannet.io:5000/rpc/v0
+'''
 OR
-<code>titan-edge daemon start</code>
+'''bash
+titan-edge daemon start
+'''
 
-# STOP NODE
-<p>titan-edge daemon stop</p>
+### STOP NODE
+'''bash
+titan-edge daemon stop
+'''
 or
-<code>CTRL+C</code>
+'''bash
+CTRL+C
+'''
