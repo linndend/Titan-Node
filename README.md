@@ -12,8 +12,8 @@ titan-edge bind --hash=YOUR-CODE-IDENTITY https://api-test1.container1.titannet.
 
 YOUR HASH HERE input IDENTIFY CODE TITAN IN WEB (https://titannet.gitbook.io/titan-network-en/resource-network-test/bind-the-identity-code)
 # Run
-export LD_LIBRARY_PATH=$LD_LIZBRARY_PATH:./libgoworkerd.so
-titan-edge daemon start --init --url https://cassini-locator.titannet.io:5000/rpc/v0
+<code>export LD_LIBRARY_PATH=$LD_LIZBRARY_PATH:./libgoworkerd.so
+titan-edge daemon start --init --url https://cassini-locator.titannet.io:5000/rpc/v0</code>
 OR
 titan-edge daemon start
 
