@@ -19,6 +19,6 @@ OR
 <code>titan-edge daemon start</code>
 
 # STOP NODE
-<code><p>titan-edge daemon stop</p></code>
+<p>titan-edge daemon stop</p>
 or
 <code>CTRL+C</code>
