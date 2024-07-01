@@ -35,7 +35,7 @@ OR
 titan-edge daemon start
 ```
 
-### ![#f03c15]STOP NODE `#f03c15`
+### - STOP NODE 
 ```bash
 titan-edge daemon stop
 ```
