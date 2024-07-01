@@ -2,12 +2,10 @@
 wget https://github.com/Titannet-dao/titan-node/releases/download/v0.1.19/titan-l2edge_v0.1.19_patch_linux_amd64.tar.gz
 
 # Extract and Enter Directory
-tar -zxvf titan-l2edge_v0.1.19_patch_linux_amd64.tar.gz
-cd titan-l2edge_v0.1.19_patch_linux_amd64
+tar -zxvf titan-l2edge_v0.1.19_patch_linux_amd64.tar.gz && cd titan-l2edge_v0.1.19_patch_linux_amd64
 
 # Install CLI Titan and Library
-sudo cp titan-edge /usr/local/bin
-sudo cp libgoworkerd.so /usr/local/lib
+sudo cp titan-edge /usr/local/bin && sudo cp libgoworkerd.so /usr/local/lib
 
 # Bind Identify code
 titan-edge bind --hash=YOUR-CODE-IDENTITY https://api-test1.container1.titannet.io/api/v2/device/binding
