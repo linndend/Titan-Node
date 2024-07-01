@@ -1,4 +1,4 @@
-# Download CLI App
+# Download CLI App for Linux
 wget https://github.com/Titannet-dao/titan-node/releases/download/v0.1.19/titan-l2edge_v0.1.19_patch_linux_amd64.tar.gz
 
 # Extract and Enter Directory
