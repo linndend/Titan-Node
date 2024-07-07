@@ -23,9 +23,9 @@ sudo cp titan-edge /usr/local/bin && sudo cp libgoworkerd.so /usr/local/lib
 export LD_LIBRARY_PATH=$LD_LIZBRARY_PATH:./libgoworkerd.so
 titan-edge daemon start --init --url https://cassini-locator.titannet.io:5000/rpc/v0
 ``` 
-<h1> AFTER INSTALL DAEMON 
+<h3> AFTER INSTALL DAEMON 
   next => CTRL + C for STOP 
-</h1>
+</h3>
 
 ### 5. Bind Identify code
 YOUR-CODE input IDENTIFY CODE TITAN IN WEB <h4>https://test1.titannet.io/login</h4>
